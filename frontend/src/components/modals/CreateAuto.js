@@ -123,8 +123,8 @@ const CreateAuto = observer(({show, onHide}) => {
         </Form>
       </Modal.Body>
       <Modal.Footer>
-        <Button variant="outline-danger" onClick={onHide}>Добавить</Button>
-        <Button variant="outline-secondary" onClick={addAuto}>Закрыть</Button>
+        <Button variant="outline-secondary" onClick={onHide}>Закрыть</Button>
+        <Button variant="outline-danger" onClick={addAuto}>Добавить</Button>
       </Modal.Footer>
     </Modal>
 
