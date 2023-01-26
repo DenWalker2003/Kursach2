@@ -34,8 +34,8 @@ const CreateMark = ({show, onHide}) => {
         </Form>
       </Modal.Body>
       <Modal.Footer>
-        <Button variant="outline-danger" onClick={onHide}>Добавить</Button>
-        <Button variant="outline-secondary" onClick={addMark}>Закрыть</Button>
+        <Button variant="outline-secondary" onClick={onHide}>Закрыть</Button>
+        <Button variant="outline-danger" onClick={addMark}>Добавить</Button>
       </Modal.Footer>
     </Modal>
 
